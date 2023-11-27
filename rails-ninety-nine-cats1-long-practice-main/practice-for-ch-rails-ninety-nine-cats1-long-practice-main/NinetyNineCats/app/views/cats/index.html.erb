@@ -1,0 +1,13 @@
+<h1> This is the Index of all Cats </h1>
+
+<ul>
+
+    <% @cats.each do |cat| %>
+    
+        <li><%= cat.name%></li>
+        <li><%= cat.color%></li>
+
+    <%end%>
+
+
+</ul>
